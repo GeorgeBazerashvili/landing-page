@@ -63,6 +63,7 @@ section {
 
 @media (max-width: 500px) {
     form {
+    padding-top: 2em;
         height: 50%;
     }   
 
