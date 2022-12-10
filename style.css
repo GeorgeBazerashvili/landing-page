@@ -32,7 +32,7 @@ label {
 
 input {
     width: 80%;
-    min-width: 200px;
+    min-width: 150px;
     max-width: 500px;
     padding: 1em;
     border: 2px solid rgb(158, 157, 157);
@@ -61,9 +61,9 @@ section {
     width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (max-height: 1500px) {
     form {
-    padding-top: 2em;
+        padding-top: 2em;
         height: 50%;
     }   
 
